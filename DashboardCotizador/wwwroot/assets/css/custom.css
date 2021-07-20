@@ -1,0 +1,40 @@
+.tablasuma {
+    float: right;
+}
+
+.tablasuma tr {
+    height: 40px;
+}
+.tablasuma td {
+    width: 250px;
+    padding-left: 30px;
+
+}
+
+.tablasuma th {
+    text-align: right;
+}
+
+.tablaProductos #Codigo {
+    min-width: 12em;
+}
+
+.tablaProductos #ProductoServicio {
+    min-width: 23em;
+}
+
+.tablaProductos #Precio {
+    min-width: 10em;
+}
+
+.tablaProductos #Cantidad {
+    min-width: 10em;
+}
+
+.tablaProductos #UnidadMedida {
+    min-width: 10em;
+}
+
+.tablaProductos #TotalNeto {
+    min-width: 10em;
+}

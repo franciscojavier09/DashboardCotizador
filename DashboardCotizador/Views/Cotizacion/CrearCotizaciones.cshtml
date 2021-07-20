@@ -1,0 +1,326 @@
+﻿@{
+    ViewData["Title"] = "Cotizaciones";
+}
+
+<!-- Begin Crear Cotizaciones -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+
+            <!-- Basic Card Example -->
+            <div class="card shadow mb-8">
+                <div class="card-header py-3">
+                    <h5 class="m-0 font-weight-bold text-primary">Cotización nº 3214</h5>
+                </div>
+                <div class=" card-body">
+                    <!--Encabezado Cotizacion-->
+                    <div class="container-fluid  ">
+                        <div class="row">
+                            <div class="col-md-2 text-center">
+                                <h1>
+                                    <img class="img-fluid" style="width: 100px;"
+                                         src="img/H.C.S_Vertical.png" alt="LogoEmpresa">
+                                </h1>
+                            </div>
+                            <div class="col-md-8 text-center">
+
+                                <h2>Electricidad Hnos Castillo S Limitada</h2>
+
+
+                                <h5>Av Viana 915 oficina 210, Viña del mar</h5>
+
+
+                                <h5>+56 9 95033297 francisco@castillohnos.cl</h5>
+
+                            </div>
+                            <div class="col-md-2">
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+
+                                        <h3>Cotizacion Nº</h3>
+
+                                        <h4>2356</h4>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Collapsable Card Cliente -->
+                    <div class="card shadow mb-4">
+                        <!-- Card Header - Accordion -->
+                        <a href="#collapseDatosCliente" class="d-block card-header py-3"
+                           data-toggle="collapse" role="button" aria-expanded="true"
+                           aria-controls="collapseDatosCliente">
+                            <h6 class="m-0 font-weight-bold text-primary"
+                                style="text-align: center;">
+                                Datos del Cliente
+                            </h6>
+                        </a>
+                        <!-- Card Content - Collapse -->
+                        <div class="collapse show" id="collapseDatosCliente">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class=" col-12 col-lg-6">
+                                        <form class="user">
+                                            <h4>Datos Cliente</h4>
+                                            <div class="form-group row">
+                                                <div class="col-sm-6 mb-3 mb-sm-0">
+                                                    <input type="text"
+                                                           class="form-control form-control-user"
+                                                           id="Nombre"
+                                                           placeholder="Nombre o Razon Social">
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <input type="text"
+                                                           class="form-control form-control-user"
+                                                           id="Rut" placeholder="Rut">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text"
+                                                       class="form-control form-control-user"
+                                                       id="DireccionPrincipal"
+                                                       placeholder="Direccion Principal" disabled>
+                                            </div>
+                                            <div class="form-group row">
+                                                <div class="col-sm-6 mb-3 mb-sm-0">
+                                                    <input type="Email"
+                                                           class="form-control form-control-user"
+                                                           id="Email" placeholder="Email" disabled>
+                                                </div>
+                                                <div class="col-sm-6">
+
+                                                    <input type="text"
+                                                           class="form-control form-control-user"
+                                                           id="NumeroEmpresa"
+                                                           placeholder="+ 56995033297" disabled>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                        </form>
+                                    </div>
+                                    <div class=" col-12 col-lg-6">
+                                        <form class="user">
+                                            <h4>Datos Contización</h4>
+                                            <div class="form-group row">
+                                                <div class="col-sm-6 mb-3 mb-sm-0">
+                                                    <input type="text"
+                                                           class="form-control form-control-user"
+                                                           id="Nombre" placeholder="Nombre Contacto">
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <input type="text"
+                                                           class="form-control form-control-user"
+                                                           id="exampleRepeatPassword"
+                                                           placeholder="+ 56995033297">
+
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <div class="col-sm-6 mb-3 mb-sm-0">
+                                                    <input type="number"
+                                                           class="form-control form-control-user"
+                                                           id="Descuento" placeholder="Descuento">
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <input type="date"
+                                                           class="form-control form-control-user"
+                                                           id="fecha" placeholder="">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="text"
+                                                       class="form-control form-control-user"
+                                                       id="DireccionPrincipal"
+                                                       placeholder="Direccion de despacho">
+                                            </div>
+                                            <hr>
+
+
+
+                                        </form>
+
+                                    </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Collapsable Card Productos -->
+                    <div class="card shadow mb-4">
+                        <!-- Card Header - Accordion -->
+                        <a href="#collapseCardExample" class="d-block card-header py-3"
+                           data-toggle="collapse" role="button" aria-expanded="true"
+                           aria-controls="collapseCardExample">
+                            <h6 class="m-0 font-weight-bold text-primary"
+                                style="text-align: center;">
+                                Productos / Servicios
+                            </h6>
+                        </a>
+                        <!-- Card Content - Collapse -->
+                        <div class="collapse show" id="collapseCardExample">
+                            <div class="card-body">
+
+                                <form class="user">
+
+
+
+                                    <table class="table-responsive-xl table table-striped tablaProductos"
+                                           id="tablaCotizaciones">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Item</th>
+                                                <th scope="col">Codigo</th>
+                                                <th scope="col">Producto o Servicio</th>
+                                                <th scope="col">Precio</th>
+                                                <th scope="col">Cantidad</th>
+                                                <th scope="col">Unidad de medida</th>
+                                                <th scope="col">Total Neto</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row" id="item">1</th>
+                                                <td>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-12 mb-3 mb-sm-0">
+                                                            <input type="number"
+                                                                   class="form-control form-control-user"
+                                                                   id="Codigo"
+                                                                   placeholder="Codigo Producto">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-12 mb-3 mb-sm-0">
+                                                            <input type="text"
+                                                                   class="form-control form-control-user"
+                                                                   id="ProductoServicio"
+                                                                   placeholder="Producto o servicio">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-12 mb-3 mb-sm-0">
+                                                            <input type="number"
+                                                                   class="form-control form-control-user"
+                                                                   id="Precio" placeholder="$0">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-12 mb-3 mb-sm-0">
+                                                            <input type="number"
+                                                                   class="form-control form-control-user"
+                                                                   id="Cantidad" placeholder="0">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-12 mb-3 mb-sm-0">
+                                                            <input type="number"
+                                                                   class="form-control form-control-user"
+                                                                   id="UnidadMedida" placeholder="Metros">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-12 mb-3 mb-sm-0">
+                                                            <input type="number"
+                                                                   class="form-control form-control-user"
+                                                                   id="TotalNeto" placeholder="$0">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td style="text-align: center;">
+                                                </td>
+                                            </tr>
+
+
+
+
+                                        </tbody>
+
+                                    </table>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-2">
+                                            <button type="button"
+                                                    class="btn btn-primary btn-user btn-block"
+                                                    onclick="agregarFila()">
+                                                Añadir Fila
+                                            </button>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <table class="tablasuma" cellpadding="0"
+                                                   cellspacing="0">
+                                                <tr>
+                                                    <th>Total Neto</th>
+                                                    <td>$0</td>
+                                                </tr>
+
+                                                <tr data-iterate="tax">
+                                                    <th>Descuento</th>
+                                                    <td>$0</td>
+                                                </tr>
+
+                                                <tr class="amount-total">
+                                                    <th>SubTotal</th>
+                                                    <td>$0</td>
+                                                </tr>
+                                                <tr data-hide-on-quote="true">
+                                                    <th>IVA 19%</th>
+                                                    <td>$0</td>
+                                                </tr>
+
+                                                <tr data-hide-on-quote="true">
+                                                    <th>Total</th>
+                                                    <td>$0</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+
+
+                                </form>
+
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+<!--End Crear Cotizaciones-->

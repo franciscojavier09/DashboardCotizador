@@ -1,0 +1,129 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Registrar Clientes";
+
+}
+
+<!-- Begin Registrar Clientes -->
+<div class="container-fluid">
+    <form action="clientes" method="post" class="user" id="formularioClientes">
+
+        <!-- Basic Card Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Registrar Clientes</h6>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class=" col-12 col-lg-6">
+
+                        <h4>Datos Cliente</h4>
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-3 mb-sm-0 " id="RazonSocialClient">
+                                <input type="text" class="form-control form-control-user"
+                                       name="RazonSocialClient" id="RazonSocialCliente"
+                                       placeholder="Nombre o Razon Social" required>
+                                <i class=" validacion-estado-inactivo fas "></i>
+
+                            </div>
+                            <div class="col-sm-6" id="RutClient">
+                                <input type="text" class="form-control form-control-user"
+                                       name="RutClient" id="RutCliente" maxlength="10" placeholder="Rut" required>
+                                <i class=" validacion-estado-inactivo fas "></i>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-12" id="DireccionClient">
+                                <input type="text" class="form-control form-control-user"
+                                       name="DireccionClient" id="DireccionCliente"
+                                       placeholder="Direccion Principal" required>
+                                <i class=" validacion-estado-inactivo fas "></i>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-3 mb-sm-0" id="EmailClient">
+                                <input type="text" class="form-control form-control-user"
+                                       id="EmailCliente" name="EmailClient" placeholder="Email" required>
+                                <i class=" validacion-estado-inactivo fas "></i>
+                            </div>
+                            <div class="col-sm-6" id="NumberClient">
+                                <input type="text" class="form-control form-control-user"
+                                       name="NumberClient" id="NumberCliente" maxlength="11" placeholder="56995033297" required>
+                                <i class=" validacion-estado-inactivo fas "></i>
+                            </div>
+                        </div>
+                        <hr>
+
+                    </div>
+                    <div class=" col-12 col-lg-6">
+
+                        <h4>Datos Contacto</h4>
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-3 mb-sm-0" id="NameContact">
+                                <input type="text" class="form-control form-control-user"
+                                       name="NameContact" id="NameContacto" placeholder="Nombre Contacto"
+                                       required>
+                                <i class=" validacion-estado-inactivo fas "></i>
+
+                            </div>
+                            <div class="col-sm-6" id="RutContact">
+                                <input type="text" class="form-control form-control-user"
+                                       id="RutContacto" name="RutContact" placeholder="Rut Contacto"
+                                       required>
+                                <i class=" validacion-estado-inactivo fas "></i>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-12" id="DireccionContact">
+                                <input type="text" class="form-control form-control-user"
+                                       name="DireccionContact" id="DireccionContacto"
+                                       placeholder="Direccion Contacto" required>
+                                <i class=" validacion-estado-inactivo fas "></i>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-3 mb-sm-0" id="EmailContact">
+                                <input type="Email" class="form-control form-control-user"
+                                       name="EmailContact" id="EmailContacto" placeholder="Email" required>
+                                <i class=" validacion-estado-inactivo fas "></i>
+                            </div>
+                            <div class="col-sm-6" id="NumberContact">
+                                <input type="text" class="form-control form-control-user"
+                                       name="NumberContact" id="NumberContacto" maxlength="11" placeholder="+ 56995033297"
+                                       required>
+                                <i class=" validacion-estado-inactivo fas "></i>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    </di>
+                </div>
+                <div class="row">
+                    <div class=" col-12">
+
+
+                        <div class="form-group row">
+
+                        </div>
+                        <button id="submitCliente" type="submit"
+                                class="btn btn-primary btn-user btn-block" onclick=validarCliente()>
+                            Añadir
+                            Cliente
+                        </button>
+                        <hr>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--End Registrar Clientes-->
+
+    </form>
+    <!-- /.container-fluid -->
+
+</div>
+<!-- End of Main Content -->

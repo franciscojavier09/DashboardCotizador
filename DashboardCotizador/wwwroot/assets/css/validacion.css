@@ -1,0 +1,32 @@
+.validacion-estado-correcto {
+	position: absolute;
+	right: 25px;
+	bottom: 17px;
+	z-index: 100;
+	font-size: 19px;
+	opacity: 100;
+    color: rgb(22, 187, 0);
+    
+}
+
+.validacion-estado-incorrecto {
+	position: absolute;
+	right: 25px;
+	bottom: 17px;
+	z-index: 100;
+	font-size: 19px;
+	opacity: 100;
+    color: rgb(228, 0, 0);
+    
+}
+.validacion-estado-inactivo {
+	position: absolute;
+	right: 25px;
+	bottom: 17px;
+	z-index: 100;
+	font-size: 19px;
+	opacity: 0;
+}
+
+
+
